@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {    
-  const [counter,setCounter] = useState(15);
+  let [counter,setCounter] = useState(15);
   const addValue = ()=> {
     counter = counter+1;
     setCounter(counter)
@@ -20,12 +20,12 @@ function App() {
     
     
     <>
-      <h1>Gyan Aur R</h1>
+      <h1>Gyana Aur R</h1>
       <h2>Counter Value : {counter}</h2>
-      <button onClick={addValue} >Add Value</button>
+      <button onClick={addValue} >Add Value {counter}</button>
       <br />
       <button
-      onClick={removeValue}>Remove Value</button>
+      onClick={removeValue}>Remove Value {counter}</button>
     </>
   )
 }
