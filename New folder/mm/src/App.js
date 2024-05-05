@@ -1,16 +1,18 @@
 import './App.css';
+import {Header,Header2} from './Components/Header'
+
+import Main from './Components/Header';
 
 
-function MyComponent(){
-  return <div>My Component</div>
-}
+
 
 function App() {
   return (
     <div>
-      Hello  <MyComponent/> Guys
+      <Header/>
+      <Header2/>
+      <Main/>
     </div>
   );
 }
-
 export default App;
