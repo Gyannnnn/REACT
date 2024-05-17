@@ -1,12 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './Component/About';
+import Contact from './Component/Contact';
+import Header from './Component/Header';
+import Home from './Component/Home';
+import Service from './Component/Service';
+import { BrowserRouter, Route,  Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <h1>
-      HI AM GYANRANJNAN PATRA :)
-      <h2>Hi Am not GYANRANJNAN</h2>      
-    </h1>
+    <>
+      <BrowserRouter>
+      <Header />
+        <Routes>
+          <Route path='/home' element={<Home/>} ></Route>
+          <Route path='/about' element={<About />} ></Route>
+          <Route path='/service' element={<Service />} ></Route>
+          <Route path='/contact' element={<Contact />}  ></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

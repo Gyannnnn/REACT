@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.contact{
+  height: 100vh;
+  width: 100vw;
+  background: red;
+}
+.services{
+  height: 100vh;
+  width: 100vw;
+  background: black;
+}
+.about{
+  height: 100vh;
+  width: 100vw;
+  background: green;
+}
+.home{
+  
+  height: 100vh;
+  width: 100vw;
+  background: #fff;
+}
+
+
+footer{
+  height: 300px;
+  width: 100%;
+  background: red;
+}
+
+.user{
+  height: 100vh;
+  width: 100%;
+  background: yellow;
+}

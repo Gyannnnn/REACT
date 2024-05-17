@@ -1,0 +1,13 @@
+header{
+    height: 30px;
+    background: #000;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+header>a{
+    text-decoration: none;
+    color: #fff;
+}
